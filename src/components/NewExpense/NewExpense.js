@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 import Card from '../UI/Card';
-import ExpenseFrom from './ExpenseForm';
+import ExpenseFrom from './ExpenseForm/ExpenseForm';
 import './NewExpense.css';
 
 const NewExpense = (props) => {

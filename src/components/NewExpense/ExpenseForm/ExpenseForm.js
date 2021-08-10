@@ -25,7 +25,7 @@ const ExpanseForm = (props) => {
         const newExpense = {
             title: enteredTitle,
             date: new Date(enteredDate),
-            amount: enteredAmount,
+            amount: +enteredAmount,
         };
         props.onSaveNewExpense(newExpense);
 
